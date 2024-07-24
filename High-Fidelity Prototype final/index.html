@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freecycling!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-logo">
+        <img src="logo.png" alt="logo">
+    </div>
+    <div class="nav-menu">
+        <a href="" style="color: #ffffff; background-color: #a2231d;">About</a>
+        <a href="">Join</a>
+        <a href="">Take Action</a>
+        <a href="">Learn</a>
+        <a href="">News</a>
+        <a href="">Events</a>
+    </div>
+    <div class="login-signup">
+        <button>LOG IN</button>
+        <button id="trigger-modal">SIGN UP</button>
+    </div>
+    <div class="lang-support">
+        <button>
+            <img src="language.png" alt="earth icon for language support">
+            <p>Language</p>
+        </button>
+    </div>
+</div>
+<div class="hero">
+    <img src="hero.png" alt="freecycle">
+    <div class="hero-text">
+        <div class="hero-text-left">
+            <h2>Our Mission</h2>
+            <p>This is a paragraph for our mission. 
+                We work to promote waste reduction across Aotearoa New Zealand
+                with a regional focus towards a zero-waste world.
+            </p>
+        </div>
+        <div class="hero-text-right">
+            <h2>Our Vision</h2>
+            <p>Through community, there is no waste. Governments, councils, 
+                businesses and communities have an opportunity to build a more resourceful 
+                New Zealand by working together to develop a more sustainable future.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footer-logo">
+        <img src="logo.png" alt="">
+    </div>
+    <div class="footer-link">
+        <a href="">Contact Us</a>
+    </div>
+    <div class="footer-social-icon">
+        <div class="footer-social-icon-container">
+            <img src="ins.png" alt="instagram icon">
+            <img src="fb.png" alt="facebook icon">
+            <img src="snapchat.png" alt="snapchat icon">
+            <img src="x.png" alt="twitter x icon">
+        </div>
+    </div>
+    <div class="copyright">
+        <hr>
+        <p>Copyright @2024 - All Rights Reserved</p>
+    </div>
+</div>
+
+
+<div id="form-ct" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Sign Up</h2>
+        <form>
+            <div id="user-details">
+                
+                <input type="text" name="givenName" placeholder="Given name" required>
+                <input type="text" name="surname" placeholder="Surname" required>
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+       
+            <div id="address-details">
+                
+                <input type="text" name="homeAddress" placeholder="Home Address" required>
+                <input type="text" name="workAddress" placeholder="Work Address" required>
+            </div>
+
+            <div id="contact-details">
+                
+                <input type="tel" name="mobileNumber" placeholder="Mobile Number" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
